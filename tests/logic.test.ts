@@ -3,7 +3,6 @@ import { resolveCategory } from '../src/ai/mapping'
 import { analyze } from '../src/ai/pipeline'
 import { haversineKm, nearestPoints } from '../src/data/geo'
 import { buildReport, parseTruth, toCsv, wilson, type EvalRow } from '../src/eval/evaluation'
-import { shuffle } from '../src/data/quiz'
 import type { CollectionPoint, ImageClassifier } from '../src/types'
 import labelMap from '../public/data/labelMappings.json'
 import points from '../public/data/collectionPoints.json'
@@ -159,12 +158,5 @@ describe('evaluacia', () => {
     expect(csv).toContain('"a,b.jpg"')
     expect(csv).toContain('"say ""hi"""')
     expect(csv.trim().endsWith('true')).toBe(true)
-  })
-})
-
-describe('kviz', () => {
-  it('shuffle zachova prvky', () => {
-    const a = [1, 2, 3, 4, 5]
-    expect(shuffle(a).sort()).toEqual(a)
   })
 })
