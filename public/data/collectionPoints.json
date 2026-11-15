@@ -1,0 +1,98 @@
+[
+  {
+    "id": "returnomat_test_01",
+    "name": "Zálohomat (predajňa) - test 1",
+    "type": "RETURNOMAT",
+    "acceptedWasteTypes": [
+      "plast_zalohovane"
+    ],
+    "latitude": 48.1486,
+    "longitude": 17.1077,
+    "address": "Staré Mesto, Bratislava",
+    "openingHours": "Po-Ne 7:00-21:00",
+    "sample": true
+  },
+  {
+    "id": "returnomat_test_02",
+    "name": "Zálohomat (predajňa) - test 2",
+    "type": "RETURNOMAT",
+    "acceptedWasteTypes": [
+      "plast_zalohovane"
+    ],
+    "latitude": 48.17,
+    "longitude": 17.15,
+    "address": "Ružinov, Bratislava",
+    "openingHours": "Po-Ne 7:00-21:00",
+    "sample": true
+  },
+  {
+    "id": "baterie_test_01",
+    "name": "Obchod s odberom batérií - test 1",
+    "type": "OBCHOD_BATERIE",
+    "acceptedWasteTypes": [
+      "baterie"
+    ],
+    "latitude": 48.125,
+    "longitude": 17.11,
+    "address": "Petržalka, Bratislava",
+    "openingHours": "Po-Ne 8:00-20:00",
+    "sample": true
+  },
+  {
+    "id": "lekaren_test_01",
+    "name": "Lekáreň - test 1",
+    "type": "LEKAREN",
+    "acceptedWasteTypes": [
+      "lieky"
+    ],
+    "latitude": 48.145,
+    "longitude": 17.11,
+    "address": "Staré Mesto, Bratislava",
+    "openingHours": "Po-Pi 8:00-18:00",
+    "sample": true
+  },
+  {
+    "id": "textil_test_01",
+    "name": "Kontajner na textil - test 1",
+    "type": "TEXTILNY_KONTAJNER",
+    "acceptedWasteTypes": [
+      "textil"
+    ],
+    "latitude": 48.155,
+    "longitude": 17.12,
+    "address": "Nové Mesto, Bratislava",
+    "openingHours": "nonstop",
+    "sample": true
+  },
+  {
+    "id": "zd_test_01",
+    "name": "Zberný dvor - test 1",
+    "type": "ZBERNY_DVOR",
+    "acceptedWasteTypes": [
+      "baterie",
+      "ziarovka",
+      "elektroodpad",
+      "lieky",
+      "textil",
+      "velkoobjemovy"
+    ],
+    "latitude": 48.16,
+    "longitude": 17.17,
+    "address": "Ružinov, Bratislava",
+    "openingHours": "Po-So 8:00-18:00",
+    "sample": true
+  },
+  {
+    "id": "velkoobjemovy_kontajner_test_01",
+    "name": "Veľkoobjemový kontajner - test 1",
+    "type": "VEREJNY_KONTAJNER",
+    "acceptedWasteTypes": [
+      "velkoobjemovy"
+    ],
+    "latitude": 48.138,
+    "longitude": 17.095,
+    "address": "Petržalka, Bratislava",
+    "openingHours": "podľa harmonogramu mestskej časti",
+    "sample": true
+  }
+]
