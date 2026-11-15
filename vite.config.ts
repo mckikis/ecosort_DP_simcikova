@@ -4,7 +4,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // base cesta: na githube pages je appka na /ecosort_DP_simcikova/
 // workflow nastavuje BASE_PATH automaticky
-const base = process.env.BASE_PATH ?? '/'
+const base = process.env.NODE_ENV === 'production' ? '/ecosort_DP_simcikova/' : '/'
 
 export default defineConfig({
   base,
